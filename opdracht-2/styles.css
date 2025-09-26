@@ -1,0 +1,181 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+C
+    /*////////////////////////
+        1. Global Styles
+    ////////////////////////*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-hmf {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: flex-start;*/
+    flex-grow: 12;
+    overflow: auto;
+    flex-basis: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Navigation /////////////*/
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 300px;
+    gap: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-img {
+    heigth: 30px;
+    width: 30px;
+}
+
+.nav-container-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-basis: 100%;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 2;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.button-subscribe {
+    background-color: #FFFFFF;
+}
+
+.button-login {
+    background-color: #383838;
+    color: #FFFFFF;
+    box-shadow: none;
+    border:none;
+}
+
+/*///////////// 3.2 Header /////////////*/
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    /*gap: 0 400px;*/
+
+    background-image: url("../assets/placeholder-image.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+}
+
+
+/*///////////// 3.3 Main /////////////*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 260px;
+    flex-grow: 0;
+    gap: 1em;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price img {
+    width: 16px;
+}
+
+
+
+/*///////////// 3.4 Footer /////////////*/
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #383838;
+    color: #FFFFFF;
+    padding: 12px 0;
+}
+
+
