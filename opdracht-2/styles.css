@@ -120,8 +120,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*flex-wrap: wrap;*/
-    /*gap: 0 400px;*/
 
     background-image: url("../assets/placeholder-image.svg");
     background-repeat: no-repeat;
