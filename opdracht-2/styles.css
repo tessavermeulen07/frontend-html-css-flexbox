@@ -9,10 +9,10 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-C
-    /*////////////////////////
-        1. Global Styles
-    ////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
 * {
     padding: 0;
     margin: 0;
@@ -32,29 +32,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /*align-items: flex-start;*/
     flex-grow: 12;
     overflow: auto;
     flex-basis: 0;
 }
 
 /*////////////////////////
-    2. Typography
-////////////////////////*/
-
-
-/*////////////////////////
     3. Areas
 ////////////////////////*/
 
-/*///////////// 3.1 Navigation /////////////*/
+/*///////////// 2.1 Navigation /////////////*/
 .nav-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-shrink: 0;
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 250px;
     gap: 50px;
 }
 
@@ -110,10 +104,10 @@ ul {
     background-color: #383838;
     color: #FFFFFF;
     box-shadow: none;
-    border:none;
+    border: none;
 }
 
-/*///////////// 3.2 Header /////////////*/
+/*///////////// 2.2 Header /////////////*/
 
 .header-wrapper {
     display: flex;
@@ -124,11 +118,13 @@ ul {
     background-image: url("../assets/placeholder-image.svg");
     background-repeat: no-repeat;
     background-position: center;
-    padding: 120px 0;
+    background-size: cover;
+    padding: 120px 0px;
+    text-align: center;
 }
 
+/*///////////// 2.3 Main /////////////*/
 
-/*///////////// 3.3 Main /////////////*/
 main {
     display: flex;
     flex-direction: row;
@@ -162,9 +158,7 @@ main {
     width: 16px;
 }
 
-
-
-/*///////////// 3.4 Footer /////////////*/
+/*///////////// 2.4 Footer /////////////*/
 .footer-wrapper {
     display: flex;
     flex-direction: row;
